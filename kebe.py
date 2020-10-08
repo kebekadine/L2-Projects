@@ -75,7 +75,7 @@ class Alien(object):
         canvas.move(self.id, dx, dy)
 
     #effet qui se produit quand un alien est touche//// cette methode ne marche pas, je l'ai fait directement dans le managed touched de la la classe fleet
-    #on pouvait aussi mettre le try là et tester, mais flemme :) 
+    
     def touched_by(self, canvas, projectile):
         self.shooter = Defender()
         self.alive = False
